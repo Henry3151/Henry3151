@@ -1,6 +1,6 @@
 <!-- ═════════════════════════════  HEADER  ═════════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=210&section=header&text=Henrique%20Silva&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Data%20Scientist%20%C2%B7%20ML%20Engineer%20%C2%B7%20Credit%20Risk%20%26%20MLOps&descAlignY=58&descSize=18&animation=fadeIn" alt="Henrique Silva" width="100%"/>
+  <img src="banner.svg" alt="Henrique Silva — Data Scientist · ML Engineer" width="100%"/>
 </p>
 
 <p align="center">
@@ -158,14 +158,6 @@ aprendendo: Azure · Databricks · inglês avançado
 </div>
 
 <br/>
-
-<!-- ═════════════════════════════  STATS  ═════════════════════════════ -->
-## 📊 Atividade
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Henry3151&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=pt-br" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Henry3151&layout=compact&theme=tokyonight&hide_border=true&locale=pt-br" alt="Top linguagens"/>
-</p>
 
 <!-- ═════════════════════════════  FORMAÇÃO  ═════════════════════════════ -->
 ## 🎓 Formação & Certificações
