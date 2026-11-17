@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/henrique-silva-ds"><img src="https://img.shields.io/badge/LinkedIn-henrique--silva--ds-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:henrique3151@icloud.com"><img src="https://img.shields.io/badge/Email-henrique3151%40icloud.com-2C5364?style=for-the-badge&logo=icloud&logoColor=white"/></a>
+  <a href="mailto:henrique3151@icloud.com"><img src="https://img.shields.io/badge/E--mail-Fale%20comigo-2C5364?style=for-the-badge&logo=icloud&logoColor=white"/></a>
   <img src="https://img.shields.io/badge/Curitiba%2C%20PR-Brasil-203A43?style=for-the-badge&logo=googlemaps&logoColor=white"/>
   <img src="https://img.shields.io/badge/Aberto%20a-Remoto%20%7C%20H%C3%ADbrido%20CWB-2EA44F?style=for-the-badge"/>
 </p>
