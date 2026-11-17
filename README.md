@@ -1,6 +1,6 @@
 <!-- ═════════════════════════════  HEADER  ═════════════════════════════ -->
 <p align="center">
-  <img src="banner.svg" alt="Henrique Silva — Data Scientist · ML Engineer" width="100%"/>
+  <img src="banner-postech.svg" alt="Henrique Silva — Data Scientist · ML Engineer" width="100%"/>
 </p>
 
 <p align="center">
