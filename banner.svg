@@ -1,16 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0F2027"/><stop offset="55%" stop-color="#203A43"/><stop offset="100%" stop-color="#2C5364"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2C9FD6"/><stop offset="100%" stop-color="#4ADE80"/></linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07070A"/>
+      <stop offset="60%" stop-color="#0E0A10"/>
+      <stop offset="100%" stop-color="#1A0711"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.45" r="0.55">
+      <stop offset="0%" stop-color="#ED145B" stop-opacity="0.38"/>
+      <stop offset="45%" stop-color="#ED145B" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ED145B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ED145B"/>
+      <stop offset="100%" stop-color="#FF6A9A"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ED145B" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ED145B" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ED145B" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#ED145B" fill-opacity="0.18"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="300" rx="16"/></clipPath>
   </defs>
-  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="260" rx="18" fill="url(#grid)"/>
-  <path d="M760 220 C 820 120, 900 70, 1160 48" fill="none" stroke="url(#accent)" stroke-width="3" stroke-opacity="0.55"/>
-  <path d="M760 220 L 1160 48" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2" stroke-dasharray="6 8"/>
-  <g fill="#4ADE80" fill-opacity="0.8"><circle cx="840" cy="146" r="4"/><circle cx="930" cy="96" r="4"/><circle cx="1030" cy="68" r="4"/><circle cx="1120" cy="53" r="4"/></g>
-  <text x="64" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff">Henrique Silva</text>
-  <rect x="66" y="132" width="120" height="4" rx="2" fill="url(#accent)"/>
-  <text x="64" y="178" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#D7E6EE">Data Scientist · ML Engineer</text>
-  <text x="64" y="214" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#8FB3C4">Risco de Crédito · Fraude · MLOps · Agentes de IA</text>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <rect x="700" width="500" height="300" fill="url(#dots)" opacity="0.6"/>
+    <rect width="1200" height="300" fill="url(#glow)"/>
+
+    <!-- rede neural -->
+    <g stroke="#ED145B" stroke-width="1" fill="none">
+      <g stroke-opacity="0.22">
+        <path d="M820 70L935 50M820 70L935 120M820 70L935 190M820 70L935 250"/>
+        <path d="M820 150L935 50M820 150L935 120M820 150L935 190M820 150L935 250"/>
+        <path d="M820 230L935 50M820 230L935 120M820 230L935 190M820 230L935 250"/>
+        <path d="M935 50L1050 95M935 50L1050 205M935 120L1050 205M935 190L1050 95M935 250L1050 95"/>
+      </g>
+      <g stroke-opacity="0.75" stroke-width="1.6">
+        <path d="M820 150L935 120L1050 95L1140 150"/>
+        <path d="M820 230L935 190L1050 205L1140 150"/>
+        <path d="M935 120L1050 205"/>
+      </g>
+    </g>
+    <g fill="#0B0B0F" stroke="#ED145B" stroke-width="2">
+      <circle cx="820" cy="70" r="6"/><circle cx="820" cy="150" r="6"/><circle cx="820" cy="230" r="6"/>
+      <circle cx="935" cy="50" r="6"/><circle cx="935" cy="120" r="6"/><circle cx="935" cy="190" r="6"/><circle cx="935" cy="250" r="6"/>
+      <circle cx="1050" cy="95" r="6"/><circle cx="1050" cy="205" r="6"/>
+    </g>
+    <circle cx="1140" cy="150" r="11" fill="#ED145B"/>
+    <circle cx="1140" cy="150" r="19" fill="none" stroke="#ED145B" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="1140" cy="150" r="28" fill="none" stroke="#ED145B" stroke-opacity="0.18" stroke-width="1"/>
+    <text x="1140" y="198" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#FF8FB2">p(default)</text>
+
+    <!-- HUD -->
+    <g stroke="#ED145B" stroke-width="2" fill="none" stroke-opacity="0.8">
+      <path d="M28 46V28H46"/><path d="M1172 254V272H1154"/>
+    </g>
+    <rect y="0" width="1200" height="2" fill="url(#edge)"/>
+
+    <!-- texto -->
+    <text x="64" y="76" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#ED145B">&gt;_ ml_engineer --focus credit_risk</text>
+    <text x="62" y="140" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="60" font-weight="700" fill="#FFFFFF" letter-spacing="-1">Henrique Silva</text>
+    <rect x="64" y="158" width="64" height="4" rx="2" fill="url(#accent)"/>
+    <rect x="134" y="158" width="14" height="4" rx="2" fill="#ED145B" fill-opacity="0.5"/>
+    <text x="64" y="198" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" fill="#E8E8EE">Data Scientist <tspan fill="#ED145B">/</tspan> Machine Learning Engineer</text>
+
+    <g font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#F3C2D2">
+      <rect x="64" y="222" width="122" height="30" rx="6" fill="#ED145B" fill-opacity="0.08" stroke="#ED145B" stroke-opacity="0.45"/>
+      <text x="125" y="242" text-anchor="middle">risco_crédito</text>
+      <rect x="196" y="222" width="72" height="30" rx="6" fill="#ED145B" fill-opacity="0.08" stroke="#ED145B" stroke-opacity="0.45"/>
+      <text x="232" y="242" text-anchor="middle">fraude</text>
+      <rect x="278" y="222" width="72" height="30" rx="6" fill="#ED145B" fill-opacity="0.08" stroke="#ED145B" stroke-opacity="0.45"/>
+      <text x="314" y="242" text-anchor="middle">mlops</text>
+      <rect x="360" y="222" width="100" height="30" rx="6" fill="#ED145B" fill-opacity="0.08" stroke="#ED145B" stroke-opacity="0.45"/>
+      <text x="410" y="242" text-anchor="middle">agentes_ia</text>
+    </g>
+    <text x="64" y="280" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#8A8A96">Pós-Tech Machine Learning Engineering · Curitiba, BR</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="16" fill="none" stroke="#ED145B" stroke-opacity="0.25"/>
 </svg>

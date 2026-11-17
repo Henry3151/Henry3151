@@ -5,14 +5,14 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=2C9FD6&center=true&vCenter=true&width=720&lines=Modelos+de+cr%C3%A9dito+e+fraude+avaliados+pelo+custo+do+erro;Do+notebook+%C3%A0+produ%C3%A7%C3%A3o%3A+FastAPI%2C+Docker%2C+MLflow%2C+Airflow;Monitoramento+de+drift+com+champion%2Fchallenger;Agentes+de+IA+com+RAG+e+ferramentas+(MCP)" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=ED145B&center=true&vCenter=true&width=720&lines=Modelos+de+cr%C3%A9dito+e+fraude+avaliados+pelo+custo+do+erro;Do+notebook+%C3%A0+produ%C3%A7%C3%A3o%3A+FastAPI%2C+Docker%2C+MLflow%2C+Airflow;Monitoramento+de+drift+com+champion%2Fchallenger;Agentes+de+IA+com+RAG+e+ferramentas+(MCP)" alt="Typing SVG"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/henrique-silva-ds"><img src="https://img.shields.io/badge/LinkedIn-henrique--silva--ds-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:henrique3151@icloud.com"><img src="https://img.shields.io/badge/E--mail-Fale%20comigo-2C5364?style=for-the-badge&logo=icloud&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/Curitiba%2C%20PR-Brasil-203A43?style=for-the-badge&logo=googlemaps&logoColor=white"/>
+  <a href="mailto:henrique3151@icloud.com"><img src="https://img.shields.io/badge/E--mail-Fale%20comigo-ED145B?style=for-the-badge&logo=icloud&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/Curitiba%2C%20PR-Brasil-1A0711?style=for-the-badge&logo=googlemaps&logoColor=white"/>
   <img src="https://img.shields.io/badge/Aberto%20a-Remoto%20%7C%20H%C3%ADbrido%20CWB-2EA44F?style=for-the-badge"/>
 </p>
 
@@ -170,5 +170,5 @@ aprendendo: Azure · Databricks · inglês avançado
 <br/>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=110&section=footer&text=Vamos%20conversar%3F&fontSize=24&fontColor=ffffff&fontAlignY=68" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:07070A,60:1A0711,100:ED145B&height=110&section=footer&text=Vamos%20conversar%3F&fontSize=24&fontColor=ffffff&fontAlignY=68" width="100%"/>
 </p>
